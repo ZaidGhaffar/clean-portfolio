@@ -4,25 +4,25 @@ import { Brain, Zap, Shield, Users } from "lucide-react"
 const features = [
   {
     icon: <Brain className="h-10 w-10 text-indigo-500" />,
-    title: "Advanced AI Technology",
+    title: "Build & Train AI Models",
     description:
-      "Our solutions are built on cutting-edge AI models, trained on vast datasets to deliver intelligent, context-aware responses.",
+      "I can Build, Train, Fine-tune & further enhance these AI/ML Models according to your specific requirements.",
   },
   {
     icon: <Zap className="h-10 w-10 text-indigo-500" />,
-    title: "Efficiency & Speed",
-    description: "Automate repetitive tasks and get instant responses, allowing your team to focus on high-value work.",
+    title: "Monitoring & Enhancing Performance",
+    description: "Continuous monitoring and optimization of AI models to ensure they perform at their best, adapting to changing data and requirements.",
   },
   {
     icon: <Shield className="h-10 w-10 text-indigo-500" />,
-    title: "Security & Privacy",
+    title: "Building API & Connecting to the Frontend",
     description:
-      "Enterprise-grade security with end-to-end encryption and strict data privacy protocols to protect your information.",
+      "I can design & build Frontend & robust APIs that connect your AI models to frontend applications, enabling real-time data processing and interaction.",
   },
   {
     icon: <Users className="h-10 w-10 text-indigo-500" />,
-    title: "Customizable Solutions",
-    description: "Tailor AI solutions to your specific business needs, industry requirements, and company voice.",
+    title: "Deploy & Secure AI Solutions",
+    description: "Deploy AI solutions seamlessly into your existing infrastructure, ensuring they are secure, scalable, and compliant with industry standards.",
   },
 ]
 
@@ -31,36 +31,35 @@ export function AboutSection() {
     <section id="about" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Our Platform</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About MY Experience</h2>
           <p className="text-xl text-muted-foreground">
-            We're revolutionizing how businesses operate by providing specialized AI solutions that automate tasks,
-            enhance productivity, and deliver exceptional results.
+            I’m an AI Engineer with 1 years of experience in,building and scaling enterprise software and machine learning systems. I have extensive experience 
+in Building, Monitoring, deploying & Scaling ML Models
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold mb-4">Work Experience</h3>
             <p className="text-muted-foreground mb-6">
-              Our mission is to democratize access to advanced AI technology, making it accessible and practical for
-              businesses of all sizes. We believe that AI should be a tool that enhances human capabilities rather than
-              replacing them.
+              Over the last few years, I’ve worked across fast-moving startups and R&D teams, deploying production-grade AI solutions that drive real results.
+              AI Engineer – WintaX Technologies Developed real-time phone-calling conversational bot at WintaX Technologies, using Gemini and a proprietary conversational model, Reduced response time by 40% and improved customer satisfaction by 75%.
             </p>
             <p className="text-muted-foreground">
-              By providing specialized AI solutions that can handle specific tasks with precision and efficiency, we
-              free up human creativity and strategic thinking for the challenges that truly matter.
+              Machine Learning Intern – Rockville Technologies Built a customs compliance engine using 7 LangChain agents & real-time regulation tracking — reduced shipment delays by 53%
             </p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-4">Our Story</h3>
+            <h3 className="text-2xl font-bold mb-4">Not a Lab Project. A Living System</h3>
             <p className="text-muted-foreground mb-6">
-              Founded in 2023 by a team of AI researchers and business strategists, our platform emerged from a simple
-              observation: most businesses were struggling to effectively implement AI solutions that delivered real
+              My work isn’t stuck in Jupyter notebooks. It lives in warehouses, hospitals, customer support centers — places where outcomes matter.
+            I engineer AI that adapts, evolves, and responds in the wild. If it can’t run at scale or drive value, I don’t ship it.
+              This isn’t research. It’s reality.
               value.
             </p>
             <p className="text-muted-foreground">
-              We set out to create a platform where businesses could easily find, deploy, and benefit from purpose-built
-              AI solutions without needing extensive technical expertise or massive budgets.
+               I’ve shipped replaces chaos with clarity.
+              I don’t just talk about AI — I deploy it, scale it, and make it work where it matters.
             </p>
           </div>
         </div>
