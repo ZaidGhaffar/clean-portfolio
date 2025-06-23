@@ -59,7 +59,7 @@ in Building, Monitoring, deploying & Scaling ML Models
             </p>
             <p className="text-muted-foreground">
                I’ve shipped replaces chaos with clarity.
-              I don’t just talk about AI — I deploy it, scale it, and make it work where it matters.
+              I don’t just talk about AI — I deploy it, scale it, and make it work where it matters.I don’t fine-tune models because it's trendy — I do it because 92% precision beats buzzwords every time.
             </p>
           </div>
         </div>
